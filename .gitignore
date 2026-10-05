@@ -1,0 +1,73 @@
+# ---------- Build artifacts ----------
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Compiled binary (repo root only)
+/tetris
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+dist/
+
+# CMake / autotools generated
+*.d
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.in
+config.log
+config.status
+autom4te.cache/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tags
+cscope.out
+
+# macOS junk
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Debug / profiler
+*.dSYM/
+vgcore.*
+core
+core.*
+*.profraw
+perf.data*
+callgrind.out.*
+
+# Logs / temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Env / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Test / coverage
+coverage/
+*.info
